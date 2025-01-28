@@ -1,0 +1,47 @@
+body {
+    border: 5px white; /* 5px wide, solid black border */
+    margin: 30px; /* Remove default margin */
+    padding: 30px0; /* Remove default padding */
+	background-image: linear-gradient(to right, #4b0082, #0000ff);
+	color: white;
+	font-family: 'Assistant', sans-serif;
+}
+
+p, li {
+    max-width: 50%;         /* The paragraph will take up a maximum of 50% of the page width */
+    margin-left: 0;         /* Align to the left */
+}
+
+img{
+    width: 100%; /* Makes the image take up the full width of the screen */
+    height: 50%; /* Keeps the aspect ratio intact */
+}
+
+a {
+    color: blue; /* Default link color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+a:visited {
+    color: red; /* Color for visited links */
+}
+
+a:link {
+    color: blue; /* Color for unvisited links */
+}
+
+a:hover {
+    color: green; /* Color when hovered */
+}
+
+a:active {
+    color: red; /* Color when clicked */
+}
+
+footer {
+    background-color: #333; /* Dark background for footer */
+    text-align: center; /* Center the text */
+    padding: 20px 0; /* Add padding above and below the text */
+    width: 100%; /* Ensure it spans the entire width of the page */
+    bottom: 0; /* Stick it to the bottom of the page */
+}
