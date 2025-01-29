@@ -1,47 +1,78 @@
-body {
-    border: 5px white; /* 5px wide, solid black border */
-    margin: 30px; /* Remove default margin */
-    padding: 30px0; /* Remove default padding */
-	background-image: linear-gradient(to right, #4b0082, #0000ff);
-	color: white;
-	font-family: 'Assistant', sans-serif;
-}
+/* body { */
+    /* border: 5px white;  */
+    /* margin: 30px;  */
+    /* padding: 30px0;  */
+	/* background-image: linear-gradient(to right, #4b0082, #0000ff); */
+	/* color: white; */
+	/* font-family: 'Assistant', sans-serif; */
+/* } */
 
-p, li {
-    max-width: 50%;         /* The paragraph will take up a maximum of 50% of the page width */
-    margin-left: 0;         /* Align to the left */
-}
+/* p, li { */
+    /* max-width: 50%;         /* The paragraph will take up a maximum of 50% of the page width */ 
+    /* margin-left: 0;         /* Align to the left */ 
+/* } */
 
-img{
-    width: 100%; /* Makes the image take up the full width of the screen */
-    height: 50%; /* Keeps the aspect ratio intact */
-}
+img{ 
+    width: 100%; 
+    height: 50%; 
+} 
 
-a {
-    color: blue; /* Default link color */
-    text-decoration: none; /* Removes underline from links */
-}
+/* a { 
+    /* color: blue; /* Default link color */ 
+    /* text-decoration: none; /* Removes underline from links */ 
+/* } */
 
-a:visited {
-    color: red; /* Color for visited links */
-}
+/* a:visited { */
+    /* color: red; /* Color for visited links */ 
+/* } */
 
-a:link {
-    color: blue; /* Color for unvisited links */
-}
+/* a:link { */
+    /* color: blue; /* Color for unvisited links */ 
+/* } */
 
-a:hover {
-    color: green; /* Color when hovered */
-}
+/* a:hover { */
+    /* color: green; /* Color when hovered */ 
+/* } */
 
-a:active {
-    color: red; /* Color when clicked */
-}
+/* a:active { */
+    /* color: red; /* Color when clicked */ 
+/* } */
 
-footer {
-    background-color: #333; /* Dark background for footer */
-    text-align: center; /* Center the text */
-    padding: 20px 0; /* Add padding above and below the text */
-    width: 100%; /* Ensure it spans the entire width of the page */
-    bottom: 0; /* Stick it to the bottom of the page */
-}
+/* footer { */
+    /* background-color: #333; /* Dark background for footer */ 
+    /* text-align: center; /* Center the text */ 
+    /* padding: 20px 0; /* Add padding above and below the text */ 
+    /* width: 100%; /* Ensure it spans the entire width of the page */ 
+    /* bottom: 0; /* Stick it to the bottom of the page */ 
+/* } */
+
+ody {
+            text-align: center;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background-image: linear-gradient(to right, #4b0082, #0000ff);
+			Color: white;
+            padding: 40px;
+            border-radius: 20px;
+        }
+        h1, h2 {
+            color: white;
+			text-decoration: underline;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
