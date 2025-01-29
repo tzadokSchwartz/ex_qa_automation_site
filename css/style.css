@@ -1,78 +1,64 @@
-/* body { */
-    /* border: 5px white;  */
-    /* margin: 30px;  */
-    /* padding: 30px0;  */
-	/* background-image: linear-gradient(to right, #4b0082, #0000ff); */
-	/* color: white; */
-	/* font-family: 'Assistant', sans-serif; */
-/* } */
+/* use CSS to manage the spacing between elements. */
+p {
+    margin-bottom: 1.5em;
+}
 
-/* p, li { */
-    /* max-width: 50%;         /* The paragraph will take up a maximum of 50% of the page width */ 
-    /* margin-left: 0;         /* Align to the left */ 
-/* } */
+ul li {
+    margin-bottom: 1.5em;
+	padding-left: 20px;
+}
 
-img{ 
-    width: 100%; 
-    height: 50%; 
-} 
+/* Responsive Design */
 
-/* a { 
-    /* color: blue; /* Default link color */ 
-    /* text-decoration: none; /* Removes underline from links */ 
-/* } */
+img {
+	width: 100%;
+    max-width: 600px;  
+    height: auto;
+}
 
-/* a:visited { */
-    /* color: red; /* Color for visited links */ 
-/* } */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 1.5rem;  
+    }
+	h2 {
+        font-size: 1.2rem;  
+    }
+    p {
+        font-size: 1rem;  
+    }
+}
 
-/* a:link { */
-    /* color: blue; /* Color for unvisited links */ 
-/* } */
+h1 {
+    font-size: 2.5rem;  
+}
 
-/* a:hover { */
-    /* color: green; /* Color when hovered */ 
-/* } */
+h2 {
+    font-size: 2rem;  
+}
 
-/* a:active { */
-    /* color: red; /* Color when clicked */ 
-/* } */
+#banner {
+    max-width: 100%; 
+    display: block; 
+	height: auto;
+}
 
-/* footer { */
-    /* background-color: #333; /* Dark background for footer */ 
-    /* text-align: center; /* Center the text */ 
-    /* padding: 20px 0; /* Add padding above and below the text */ 
-    /* width: 100%; /* Ensure it spans the entire width of the page */ 
-    /* bottom: 0; /* Stick it to the bottom of the page */ 
-/* } */
+article, section {
+    padding: 20px;
+}
 
-ody {
-            text-align: center;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            max-width: 600px;
-            width: 100%;
-            background-image: linear-gradient(to right, #4b0082, #0000ff);
-			Color: white;
-            padding: 40px;
-            border-radius: 20px;
-        }
-        h1, h2 {
-            color: white;
-			text-decoration: underline;
-        }
-        p {
-            font-size: 1.2em;
-        }
-        a {
-            color: red;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
